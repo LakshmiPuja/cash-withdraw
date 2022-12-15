@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+}
+.button {
+  border: #c4c4c4 2px solid;
+  background-color: #585076;
+  height: 40px;
+  width: 200px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}

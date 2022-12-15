@@ -1,0 +1,106 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 350;
+  width: 80%;
+}
+@media screen and(min-width:768px) {
+  .card {
+    padding: 40px;
+    max-width: 422px;
+    width: 50%;
+  }
+}
+.name-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.initial-card {
+  background-color: #c7d2fe;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .initial-card {
+    height: 64px;
+    width: 64px;
+    border-radius: 48px;
+  }
+}
+
+.initial {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 24px;
+    margin-left: 16px;
+  }
+}
+.balance-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .balance {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+}
+.amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .amount {
+    font-size: 32px;
+  }
+}
+.currency {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+}
